@@ -62,8 +62,26 @@ void test01()
 	doSpeak(dog);
 }
 
+void test02()
+{
+	// 定义虚函数前尺寸为1，定义虚函数后尺寸为4，表示一个指针
+	// 指针叫 vfptr
+	// 此指针指向一个叫 vftable的表
+	// 此表存放的是虚函数的地址
+	// 记录方式： &Animal::speak
+
+	cout << "sizeof animal=" << sizeof(Animal) << endl; 
+	
+	// 当子类重写了父类的虚函数，
+	// 子类中虚函数表会替换成子类的虚函数地址，即：&Cat::speak
+	cout << "sizeof cat=" << sizeof(Cat) << endl;
+
+	// 当父类的指针或者引用指向子类对象时，发生多态
+}
+
 int main(){
-	test01();	
+	test01();
+	test02();	
 	system("ls");
 
 	return 0;
