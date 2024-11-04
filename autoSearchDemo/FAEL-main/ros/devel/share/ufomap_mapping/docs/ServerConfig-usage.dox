@@ -1,0 +1,31 @@
+\subsubsection usage Usage
+\verbatim
+<node name="ufomap_mapping" pkg="ufomap_mapping" type="ufomap_mapping">
+  <param name="frame_id" type="str" value="map" />
+  <param name="max_range" type="double" value="-1.0" />
+  <param name="insert_depth" type="int" value="0" />
+  <param name="simple_ray_casting" type="bool" value="False" />
+  <param name="early_stopping" type="int" value="0" />
+  <param name="async" type="bool" value="True" />
+  <param name="clear_robot" type="bool" value="False" />
+  <param name="robot_frame_id" type="str" value="base_link" />
+  <param name="robot_height" type="double" value="0.2" />
+  <param name="robot_radius" type="double" value="0.5" />
+  <param name="clearing_depth" type="int" value="0" />
+  <param name="compress" type="bool" value="False" />
+  <param name="update_part_of_map" type="bool" value="True" />
+  <param name="update_rate" type="double" value="0.0" />
+  <param name="publish_depth" type="int" value="4" />
+  <param name="prob_hit" type="double" value="0.7" />
+  <param name="prob_miss" type="double" value="0.4" />
+  <param name="clamping_thres_min" type="double" value="0.1192" />
+  <param name="clamping_thres_max" type="double" value="0.971" />
+  <param name="pub_rate" type="double" value="0.0" />
+  <param name="transform_timeout" type="double" value="0.1" />
+  <param name="map_queue_size" type="int" value="10" />
+  <param name="cloud_in_queue_size" type="int" value="10" />
+  <param name="map_latch" type="bool" value="False" />
+  <param name="verbose" type="bool" value="False" />
+</node>
+\endverbatim
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/devel/lib/libufomap_ros.a  CMakeFiles/ufomap_ros.dir/src/conversions.cpp.o
+/usr/bin/ranlib /home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/devel/lib/libufomap_ros.a

@@ -1,0 +1,2 @@
+set(control_planner_interface_MESSAGE_FILES "msg/PlannerMsgs.msg;msg/Path.msg;msg/VehicleExecuteAction.msg;msg/VehicleExecuteActionGoal.msg;msg/VehicleExecuteActionResult.msg;msg/VehicleExecuteActionFeedback.msg;msg/VehicleExecuteGoal.msg;msg/VehicleExecuteResult.msg;msg/VehicleExecuteFeedback.msg;msg/ExplorerPlannerAction.msg;msg/ExplorerPlannerActionGoal.msg;msg/ExplorerPlannerActionResult.msg;msg/ExplorerPlannerActionFeedback.msg;msg/ExplorerPlannerGoal.msg;msg/ExplorerPlannerResult.msg;msg/ExplorerPlannerFeedback.msg")
+set(control_planner_interface_SERVICE_FILES "")

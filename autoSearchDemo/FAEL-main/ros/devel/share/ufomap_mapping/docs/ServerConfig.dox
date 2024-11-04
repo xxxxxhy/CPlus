@@ -1,0 +1,30 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~frame_id" : \b [str] Frame id of the map min: , default: map, max: 
+- \b "~max_range" : \b [double] Max range (m) when integrating data into map min: -1.0, default: -1.0, max: 100.0
+- \b "~insert_depth" : \b [int] Integration depth min: 0, default: 0, max: 10
+- \b "~simple_ray_casting" : \b [bool] Use simple ray casting min: False, default: False, max: True
+- \b "~early_stopping" : \b [int] Early stopping min: 0, default: 0, max: 10
+- \b "~async" : \b [bool] Async integration min: False, default: True, max: True
+- \b "~clear_robot" : \b [bool] Clear map at robot position min: False, default: False, max: True
+- \b "~robot_frame_id" : \b [str] Frame id of the robot min: , default: base_link, max: 
+- \b "~robot_height" : \b [double] Robot height (m) min: 0.0, default: 0.2, max: 100.0
+- \b "~robot_radius" : \b [double] Robot radius (m) min: 0.0, default: 0.5, max: 100.0
+- \b "~clearing_depth" : \b [int] Clearing depth min: 0, default: 0, max: 10
+- \b "~compress" : \b [bool] Compress msgs min: False, default: False, max: True
+- \b "~update_part_of_map" : \b [bool] Publish updated parts of map min: False, default: True, max: True
+- \b "~update_rate" : \b [double] How often map updates should be published (/s) (0 == asap) min: 0.0, default: 0.0, max: 100.0
+- \b "~publish_depth" : \b [int] Depth of published map(s) min: 0, default: 4, max: 10
+- \b "~prob_hit" : \b [double] Probability for hit min: 0.5, default: 0.7, max: 1.0
+- \b "~prob_miss" : \b [double] Probability for miss min: 0.0, default: 0.4, max: 0.5
+- \b "~clamping_thres_min" : \b [double] Minimum clamping threshold min: 0.0, default: 0.1192, max: 1.0
+- \b "~clamping_thres_max" : \b [double] Maximum clamping threshold min: 0.0, default: 0.971, max: 1.0
+- \b "~pub_rate" : \b [double] How often the whole map should be published (/s) (0 == never) min: 0.0, default: 0.0, max: 100.0
+- \b "~transform_timeout" : \b [double] How long to wait for transform (s) min: 0.0, default: 0.1, max: 100.0
+- \b "~map_queue_size" : \b [int] Queue size for map min: 0, default: 10, max: 10000
+- \b "~cloud_in_queue_size" : \b [int] Queue size for cloud_in min: 0, default: 10, max: 10000
+- \b "~map_latch" : \b [bool] Enable latched map topic min: False, default: False, max: True
+- \b "~verbose" : \b [bool] Enable verbose output min: False, default: False, max: True
+

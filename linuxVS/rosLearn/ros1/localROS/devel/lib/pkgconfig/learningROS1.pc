@@ -1,0 +1,8 @@
+prefix=/home/sany-xhy/Documents/CPlus/linuxVS/rosLearn/ros1/localROS/devel
+
+Name: learningROS1
+Description: Description of learningROS1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

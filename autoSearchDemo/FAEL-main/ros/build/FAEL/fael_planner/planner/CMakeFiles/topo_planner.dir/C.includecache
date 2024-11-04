@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/src/FAEL/fael_planner/planner/include/graph/kdtree.h
+
+/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/src/FAEL/fael_planner/planner/src/graph/kdtree.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+graph/kdtree.h
+/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/src/FAEL/fael_planner/planner/src/graph/graph/kdtree.h
+malloc.h
+-
+pthread.h
+-
+

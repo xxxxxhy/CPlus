@@ -1,0 +1,8 @@
+prefix=/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/devel
+
+Name: ufomap
+Description: Description of ufomap
+Version: 1.0.0
+Cflags: -I/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/src/FAEL/3rdparty/ufomap/ufomap/include
+Libs: -L${prefix}/lib -lMap -lUFO::Map
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/install
+
+Name: exploration_manager
+Description: Description of exploration_manager
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lexplorer
+Requires: control_planner_interface geometry_msgs nav_msgs roscpp std_msgs tf

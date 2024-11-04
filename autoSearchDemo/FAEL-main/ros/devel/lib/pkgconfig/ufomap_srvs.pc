@@ -1,0 +1,8 @@
+prefix=/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/devel
+
+Name: ufomap_srvs
+Description: Description of ufomap_srvs
+Version: 0.0.0
+Cflags: -I/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime ufomap_msgs

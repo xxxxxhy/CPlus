@@ -1,0 +1,8 @@
+prefix=/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/devel
+
+Name: nmea_msgs
+Description: Description of nmea_msgs
+Version: 1.1.0
+Cflags: -I/home/sany-xhy/Documents/CPlus/autoSearchDemo/FAEL-main/ros/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime
